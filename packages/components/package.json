@@ -1,0 +1,19 @@
+{
+  "name": "@xmem/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@arco-design/web-vue": "2.53.0",
+    "@icon-park/vue-next": "^1.4.2",
+    "vue": "^3.3.4",
+    "xgplayer": "^3.0.9",
+    "xgplayer-hls": "^3.0.9"
+  }
+}

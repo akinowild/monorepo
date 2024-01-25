@@ -1,2 +1,1 @@
-# monorepo
-常用管理库
+# monorepo 仓库管理
