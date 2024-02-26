@@ -20,7 +20,7 @@ export default defineConfig({
                     // preserveModules: true,
                     exports: "named",
                     //配置打包根目录
-                    dir: "../DUI/es",
+                    dir: "../../npm-publish/DUI/es",
                 },
                 {
                     //打包格式
@@ -31,7 +31,7 @@ export default defineConfig({
                     // preserveModules: true,
                     exports: "named",
                     //配置打包根目录
-                    dir: "../DUI/lib",
+                    dir: "../../npm-publish/DUI/lib",
                 },
             ],
         },

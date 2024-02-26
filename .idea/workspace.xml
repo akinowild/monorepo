@@ -4,9 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dce4340-27d5-4d30-aca9-155f6824ae08" name="更改" comment="提交一些demo">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6dce4340-27d5-4d30-aca9-155f6824ae08" name="更改" comment="修改gitignore的子目录互略">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/DUI/es/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/DUI/es/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/DUI/es/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/DUI/es/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/DUI/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/DUI/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/DUI/lib/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/DUI/lib/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/DUI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/DUI/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/button/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/button/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/icon/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/icon/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/npmPublish.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/npmPublish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/vue/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/vue/utils/log.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/vue/utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/.vscode/extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/public/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/src/assets/vue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/src/assets/vue.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-component/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-vue/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +94,14 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hooks/vue" />
+      <recent name="$PROJECT_DIR$/components/vue" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/npm-publish" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -80,7 +115,7 @@
       <workItem from="1708600027285" duration="18539000" />
       <workItem from="1708774291322" duration="5037000" />
       <workItem from="1708932110044" duration="2828000" />
-      <workItem from="1708938630307" duration="108000" />
+      <workItem from="1708938630307" duration="1679000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <option name="closed" value="true" />
@@ -138,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708933853510</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改gitignore的子目录互略">
+      <option name="closed" value="true" />
+      <created>1708938762762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708938762762</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +219,7 @@
     <MESSAGE value="readme" />
     <MESSAGE value="重新提交" />
     <MESSAGE value="提交一些demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交一些demo" />
+    <MESSAGE value="修改gitignore的子目录互略" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改gitignore的子目录互略" />
   </component>
 </project>

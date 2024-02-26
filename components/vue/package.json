@@ -13,7 +13,7 @@
     "@icon-park/vue-next": "^1.4.2",
     "fs": "0.0.1-security",
     "less": "^4.2.0",
-    "vue": "^3.3.4"
+    "vue": "^3.4.19"
   },
   "description": ""
 }
