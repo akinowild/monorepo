@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dce4340-27d5-4d30-aca9-155f6824ae08" name="更改" comment="提交一些demo" />
+    <list default="true" id="6dce4340-27d5-4d30-aca9-155f6824ae08" name="更改" comment="提交一些demo">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_COMMON_BRANCH" value="backup" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wilder-vue" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -46,6 +49,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "21.2.0",
     "javascript.nodejs.core.library.typings.version": "20.11.20",
     "last_opened_file_path": "/Users/akino/git/github/monorepo",
@@ -76,6 +80,7 @@
       <workItem from="1708600027285" duration="18539000" />
       <workItem from="1708774291322" duration="5037000" />
       <workItem from="1708932110044" duration="2828000" />
+      <workItem from="1708938630307" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <option name="closed" value="true" />
