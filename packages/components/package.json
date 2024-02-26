@@ -1,0 +1,19 @@
+{
+  "name": "@xmem/vue",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build && node npmPublish.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
+    "fs": "0.0.1-security",
+    "less": "^4.2.0",
+    "vue": "^3.3.4"
+  },
+  "description": ""
+}
