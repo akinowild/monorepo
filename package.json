@@ -1,9 +1,13 @@
 {
-  "name": "test-monorepo",
+  "name": "xmem-monorepo",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
+  "workspaces": ["packages/*"],
   "scripts": {
+    "start-demo": "cd packages/demo-admin && pnpm dev",
+    "build-demo": "cd packages/demo-admin && pnpm build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
