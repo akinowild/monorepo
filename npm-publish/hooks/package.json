@@ -1,0 +1,16 @@
+{
+  "name": "@xmem/hooks",
+  "version": "0.0.9",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "access": "public",
+  "author": "",
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "license": "ISC"
+}

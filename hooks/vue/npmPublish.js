@@ -63,7 +63,7 @@ function incrementVersionAndPublish(packageJsonPath) {
 }
 
 // 调用示例
-const packageJsonPath = '../../npm-publish/DUI/package.json'; // 替换成你的 package.json 路径
+const packageJsonPath = '../../npm-publish/hooks/package.json'; // 替换成你的 package.json 路径
 incrementVersionAndPublish(packageJsonPath);
 
 

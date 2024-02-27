@@ -1,3 +1,5 @@
 packages:
   - packages/*
-  - admin-web/*
+  - components/*
+  - hooks/*
+  - utils/*
