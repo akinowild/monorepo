@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-<button >{{props.text}}22</button>
+<button >{{props.text}}</button>
 </template>
 
 <style scoped lang="less">

@@ -4,25 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dce4340-27d5-4d30-aca9-155f6824ae08" name="更改" comment="fix: 修改函数为ts">
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/assets/vue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/vite.config.ts" afterDir="false" />
+    <list default="true" id="6dce4340-27d5-4d30-aca9-155f6824ae08" name="更改" comment="feat: 增加demo-admin的测试">
+      <change afterPath="$PROJECT_DIR$/biome.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/vue/src/useEntityHandler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/npm-publish/DUI/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/vue/button/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/button/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/vue/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/vue/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/es/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/es/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/demo-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/demo-admin/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -68,13 +69,16 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "21.2.0",
     "javascript.nodejs.core.library.typings.version": "20.11.20",
-    "last_opened_file_path": "/Users/akino/git/github/monorepo/utils",
+    "last_opened_file_path": "/Users/akino/git/github/monorepo/npm-publish/DUI",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
-    "ts.external.directory.path": "/Users/akino/git/github/monorepo/hooks/vue/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "Settings.Biome",
+    "ts.external.directory.path": "/Users/akino/git/github/monorepo/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -85,6 +89,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/npm-publish/DUI" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/hooks/vue" />
     </key>
@@ -109,7 +115,7 @@
       <workItem from="1708600027285" duration="18539000" />
       <workItem from="1708774291322" duration="5037000" />
       <workItem from="1708932110044" duration="2828000" />
-      <workItem from="1708938630307" duration="15854000" />
+      <workItem from="1708938630307" duration="41842000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <option name="closed" value="true" />
@@ -191,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709000601348</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: 增加demo-admin的测试">
+      <option name="closed" value="true" />
+      <created>1709004992660</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709004992660</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +252,7 @@
     <MESSAGE value="修改gitignore的子目录互略" />
     <MESSAGE value="feat: 修改目录结构" />
     <MESSAGE value="fix: 修改函数为ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 修改函数为ts" />
+    <MESSAGE value="feat: 增加demo-admin的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 增加demo-admin的测试" />
   </component>
 </project>
