@@ -5,22 +5,134 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dce4340-27d5-4d30-aca9-155f6824ae08" name="更改" comment="feat: 增加demo-admin的测试">
-      <change afterPath="$PROJECT_DIR$/biome.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/vue/src/useEntityHandler.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/npm-publish/DUI/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/demo-admin/src/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/img/img20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/img/img21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/img/img22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/img/img23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/img/img31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/img/img32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/img/img33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/js/dat-gui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/js/gsap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/public/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/App.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/company.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/index-black.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/news.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/scenarios.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/css/smarter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner/banner-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner/cover-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/banner/ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/company/2015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/company/company-two.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/company/company-value.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/company/flow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/company/immagine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/company/mission.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/cover-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/cover-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/custom/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/customer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/minicode-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/minicode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/news/news-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/news/news-cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/scenarios/banner-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/scenarios/banner-bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/scenarios/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/scenarios/line-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/scenarios/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/desc-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/icon1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/icon2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/immagine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/p-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/p-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/p-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/p-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/smarter/visual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/assets/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/comments/footer/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/comments/footer/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/comments/header/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/comments/header/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/js/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/js/xdjxvujz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/company/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/company/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/index/cover.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/index/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/index/gallery.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/index/map.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/index/silder.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/index/sketch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/news/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/news/detail.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/news/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/scenarios/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/scenarios/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/smarter/index.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/pages/smarter/sea.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/svelte.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/vite.config.ts.timestamp-1673499882264.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/youcon-www-svelte/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/vue/button/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/vue/button/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/vue/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/vue/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/es/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/es/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-publish/hooks/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/npm-publish/hooks/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/demo-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/demo-admin/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,34 +171,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "21.2.0",
-    "javascript.nodejs.core.library.typings.version": "20.11.20",
-    "last_opened_file_path": "/Users/akino/git/github/monorepo/npm-publish/DUI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "Settings.Biome",
-    "ts.external.directory.path": "/Users/akino/git/github/monorepo/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.2.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/akino/git/github/monorepo/npm-publish/DUI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Biome&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/akino/git/github/monorepo/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/npm-publish/DUI" />

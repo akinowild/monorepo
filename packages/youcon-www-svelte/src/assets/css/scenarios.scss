@@ -1,0 +1,213 @@
+.scenarios-banner{
+    height: 640px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+    background: url(../img/scenarios/banner-bg.png) center bottom no-repeat ;
+    background-size: cover;
+}
+.scenarios-name{
+    height: 510px;
+    font-size: 64px;
+    color: var(--deep-blue);
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 0 80px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+
+.classify{
+    width: 1280px;
+    height: 738px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+    .left{
+        padding: 0 130px 0 0;
+        .title{
+            font-size: 40px;
+            color: var(--nav-color);
+            strong{
+                margin:0 40px 0 0;
+                cursor: pointer;
+                transition: all 0.5s linear;
+            }
+            .actived{
+                color: var(--deep-blue);
+                cursor: default;
+            }
+        }
+        dl{
+            padding: 300px 0 100px;
+            height: 120px;
+            color: var(--deep-blue);
+            dt{
+                font-size: 24px;
+            }
+            dd{
+                padding: 20px 0 0;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        .line{
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(to right,var(--black) 0%,var(--black) calc(var(--ac-num)*100%) ,var(--nav-color) calc(var(--ac-num)*100%),var(--nav-color) 100%);
+        }
+        .control{
+            display: flex;
+            justify-content: left;
+            div{
+                width: 56px;
+                height: 56px;
+                margin:30px 16px 0 0;
+                cursor: pointer;
+            }
+            .l{
+                background: url(../img/cover-left.svg) center no-repeat;
+                background-size: cover;
+            }
+            .r{
+                background: url(../img/cover-right.svg) center no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+.feed-detail{
+    height: 968px;
+    background: url(../img/scenarios/line-2.png) center bottom no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .feed-top{
+        width: 1060px;
+        margin: 0 auto;
+        padding: 140px 0 120px;
+        opacity: 0;
+        p{
+            font-size: 40px;
+            line-height: 48px;
+            color: var(--black);
+        }
+    }
+    .user{
+        display: grid;
+        margin: 90px 0 0;
+        grid-template-columns: 44px 1fr;
+        grid-template-rows: 1fr 1fr;
+        line-height: 24px;
+        grid-column-gap: 20px;
+        img{
+            grid-row: 1/3;
+        }
+        .name{
+            font-size: 16px;
+        }
+        .desc{
+            font-size: 13px;
+            color: var(--nav-color);
+        }
+    }
+
+    .feed-main{
+        height: 200px;
+        padding:0 0 70px;
+        white-space: nowrap;
+        opacity: 0;
+        .feed-box{
+            width: 512px;
+            border:1px solid var(--black);
+            border-radius: 16px;
+            box-sizing: border-box;
+            padding: 24px;
+            display: inline-block;
+            margin:0 0 0 40px;
+            transition: all 0.382s;
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                white-space: normal;
+                min-height: 96px;
+                display: inline-block;
+            }
+            .user{
+                margin:0;
+            }
+        }
+        .feed-box:hover{
+            background: var(--black);
+            color: var(--silver-white);
+            transform: translateY(-20px);
+            p{
+                color: var(--silver-white);
+            }
+        }
+    }
+    .feed-left{
+        margin-left: -50%;
+    }
+    .feed-show{
+        animation: feedIn 2s linear forwards;
+    }
+    .feed-showAndLeft{
+        animation-name: feedIn, feedMoveLeft;
+        animation-duration: 2s, 3s;
+        animation-delay: 2s, 4s;
+        animation-timing-function: linear, linear;
+        animation-iteration-count:1 infinite;
+        animation-direction:normal alternate;
+        animation-fill-mode: forwards;
+    }
+    .feed-showAndRight{
+        animation-name: feedIn, feedMoveRight;
+        animation-duration: 2s, 3s;
+        animation-delay: 2s, 4s;
+        animation-timing-function: linear, linear;
+        animation-iteration-count:1 infinite;
+        animation-direction:normal alternate;
+        animation-fill-mode: forwards;
+    }
+    
+}
+.empty{
+    height: 140px;
+}
+
+@keyframes feedIn {
+	0%{
+		opacity: 0;
+        transform: translateY(100px);
+	}
+	100%{
+		opacity: 1;
+        transform: translateY(0);
+	}
+}
+
+@keyframes feedMoveLeft {
+    0%{
+        margin-left:0;
+    }
+    100%{
+        margin-left:-50%;
+    }
+}
+
+
+@keyframes feedMoveRight {
+    0%{
+        margin-left:-50%;
+    }
+    100%{
+        margin-left:0;
+    }
+}
