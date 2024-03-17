@@ -104,9 +104,9 @@
 <div class="max-width">
 <div class="banner">
 	<div class="banner-left">
-		<strong>水务精灵</strong>
+		<strong>极膜环境科技</strong>
 		<strong class="c-green">精益水处理</strong>
-		<p>基于物联网的智能化云服务平台</p>
+		<p>基于物联网的智能化</p>
 		<div class="more">
 			discover more
 		</div>
