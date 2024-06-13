@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +27,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: #fff;
 }
 
 h1 {
@@ -59,10 +59,9 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  min-height: 100vh;
 }
 
 @media (prefers-color-scheme: light) {
@@ -76,4 +75,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+#box{
+  width: 100vw;
+  height: 100vh;
+  color:#000;
+  text-align:-webkit-center;
 }

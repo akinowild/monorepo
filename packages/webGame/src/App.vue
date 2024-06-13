@@ -1,9 +1,10 @@
 <script setup>
-import Flay from './components/fly.vue'
+import Circle from './components/circle.vue'
+
 </script>
 
 <template>
-  <Flay />
+  <Circle />
 </template>
 
 <style scoped>

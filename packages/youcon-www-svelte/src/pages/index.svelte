@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Map from './index/map.svelte';
-	
-	export const prerender = true;	
+
+	export const prerender = true;
 	import { onMount,onDestroy } from 'svelte';
 	import "../assets/css/index.scss"
 	//暗色调

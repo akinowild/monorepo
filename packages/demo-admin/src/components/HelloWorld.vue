@@ -1,38 +1,48 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+// 为这个元素创建类
+class MyCustomElement extends HTMLElement {
+  static observedAttributes = ["color", "size"];
 
-defineProps<{ msg: string }>()
+  constructor() {
+    // 必须首先调用 super 方法
+    super();
+  }
 
-const count = ref(0)
+  connectedCallback() {
+    console.log("自定义元素添加至页面。");
+  }
+
+  disconnectedCallback() {
+    console.log("自定义元素从页面中移除。");
+  }
+
+  adoptedCallback() {
+    console.log("自定义元素移动至新页面。");
+  }
+
+  attributeChangedCallback(name:any, oldValue, newValue) {
+    console.log(`属性 ${name} 已变更。`);
+  }
+}
+
+customElements.define("my-custom-element", MyCustomElement);
+
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+  <div class="box">
+    <my-custom-element></my-custom-element>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
+.box{
+  height: 400px;
+  width: 400px;
+}
+hr{
+  color: #000;
+  height: 1px;
+  width: 100%;
 }
 </style>

@@ -1,23 +1,15 @@
 <script lang="ts" setup>
 import HelloWorld from './components/HelloWorld.vue'
 
-import wild from '@xmem/url'
-
-console.log(wild.etURLParameters())
 
 
+// const getNumber =() =>{
+//   console.log('父组件现在打印是',msg.value)
+// }
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img alt="Vite logo" class="logo" src="/vite.svg"/>
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img alt="Vue logo" class="logo vue" src="./assets/vue.svg"/>
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue"/>
+  <HelloWorld />
 </template>
 
 <style scoped>

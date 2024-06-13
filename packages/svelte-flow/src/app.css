@@ -1,0 +1,20 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.custom-node{
+  color: #ff0000;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.svelte-flow__pane{
+  perspective: 800px;
+  transform-style: preserve-3d;
+  transform: rotateX(60deg)  rotateZ(30deg);
+  perspective-origin: 50% 90%;
+  .custom-icon{
+    transform: rotateX(0)  rotateZ(-30deg);
+  }
+}

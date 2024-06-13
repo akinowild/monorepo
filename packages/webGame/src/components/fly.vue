@@ -51,7 +51,7 @@ function startGame() {
   player.value = new Player(canvasWidth, canvasHeight);
   obstacles.value = [];
   score.value = 0;
-  obstacleSpeed.value = 10;
+  obstacleSpeed.value = 20;
   obstacleSpawnRate.value = 0.02;
   gameStarted.value = true;
   gameOver.value = false;

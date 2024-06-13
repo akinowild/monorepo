@@ -26,8 +26,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  background: url("./assets/background.png") center no-repeat ;
-  background-size: cover;
+  background: #2A3567;
+  /*background: url("./assets/background.png") center no-repeat ;*/
+  /*background-size: cover;*/
 }
 
 h1 {
