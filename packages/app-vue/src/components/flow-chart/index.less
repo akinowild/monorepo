@@ -1,0 +1,161 @@
+// 该class到期删除，纯测试页面
+//.c-bg {
+//  background: url("./images/bg.png") center no-repeat;
+//  background-size: cover;
+//  background: #000;
+//  background-blend-mode: color;
+//  height: 100vh;
+//  padding-top: 70px;
+//  width: 100%;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  overflow: auto;
+//}
+.flow {
+  &-chart {
+    position: relative;
+    //transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+    //perspective: 800px;
+    //transform-style: preserve-3d;
+    //transform: rotateX(60deg)  rotateZ(310deg);
+    //perspective-origin: 50% 90%;
+    width: 1707px;
+    height: 891px;
+    flex-shrink: 0;
+    //border: 1.5px solid rgba(255, 228, 186, 1);
+    //border-radius: 16px;
+    .label{
+      position: absolute;
+      z-index: 10;
+    }
+    //background-clip: border-box, content-box;
+    //background-origin: border-box, content-box;
+    //border-image: linear-gradient(145deg, rgba(255, 228, 186, 1), rgba(255, 228, 186, 0), rgba(255, 228, 186, 1));
+    .flow-element {
+      position: absolute;
+      left: var(--left);
+      top: var(--top);
+      z-index: 1;
+    }
+    .pool-green {
+      background: url('./images/icon/pool-green.png') left center no-repeat;
+      background-size: cover;
+    }
+    .pool-red {
+      background: url('./images/icon/pool-red.png') left center no-repeat;
+      background-size: cover;
+    }
+    .pool-white {
+      background: url('./images/icon/pool-white.png') left center no-repeat;
+      background-size: cover;
+    }
+    .pool-yellow {
+      background: url('./images/icon/pool-yellow.png') left center no-repeat;
+      background-size: cover;
+    }
+    .sludge-box {
+      background: url('./images/icon/sludge-box.png') left center no-repeat;
+      background-size: cover;
+    }
+    .total-network {
+      background: url('./images/icon/total-network.png') left center no-repeat;
+      background-size: cover;
+    }
+    .water-tank {
+      background: url('./images/icon/water-tank.png') left center no-repeat;
+      background-size: cover;
+    }
+    .ro {
+      background: url('./images/icon/ro.png') left center no-repeat;
+      background-size: cover;
+    }
+    .ultrafiltration {
+      background: url('./images/icon/ultrafiltration.png') left center no-repeat;
+      background-size: cover;
+    }
+    .board-frame {
+      background: url('./images/icon/board-frame.png') left center no-repeat;
+      background-size: cover;
+    }
+    .mixed-bed {
+      background: url('./images/icon/mixed-bed.png') left center no-repeat;
+      background-size: cover;
+    }
+    .tubular {
+      background: url('./images/icon/tubular.png') left center no-repeat;
+      background-size: cover;
+    }
+    .cycle-water {
+      background: url('./images/icon/cycle-water.png') left center no-repeat;
+      background-size: cover;
+    }
+    .self-cleaning {
+      background: url('./images/icon/self-cleaning.png') left center no-repeat;
+      background-size: cover;
+    }
+    .coal-yard {
+      background: url('./images/icon/coal-yard.png') left center no-repeat;
+      background-size: cover;
+    }
+    .mud-cake {
+      background: url('./images/icon/mud-cake.png') left center no-repeat;
+      background-size: cover;
+    }
+    .water-tank-green {
+      background: url('./images/icon/water-tank-green.png') left center no-repeat;
+      background-size: cover;
+    }
+    .desalination {
+      background: url('./images/icon/desalination.png') left center no-repeat;
+      background-size: cover;
+    }
+    .multimedia {
+      background: url('./images/icon/multimedia.png') left center no-repeat;
+      background-size: cover;
+    }
+    .icon-edi {
+      background: url('./images/icon/edi.png') left center no-repeat;
+      background-size: cover;
+
+    }
+  }
+  &-icon {
+    width: 98px;
+    height: 70px;
+    position: absolute;
+    left: var(--left);
+    top: var(--top);
+    z-index: 2;
+    transform: matrix(1, -0.2, 0.8, 1, 0, -20);
+    //transform: rotateX(0deg)  rotateZ(48deg);
+    span{
+      background: linear-gradient( to right,rgba(223,199,163,0),rgba(223,199,163,.32),rgba(223,199,163,0));
+      color: rgba(255,228,186,1);
+      display: inline-block;
+      font-weight: bold;
+      padding: 10px 20px;
+      position: absolute;
+      left: 80px;
+      top: 25%;
+      white-space: nowrap;
+    }
+  }
+}
+
+.path-amani {
+  stroke-dasharray: 10;
+  animation: dash 15s linear infinite;
+  --distance:1000
+}
+.path-amani-reverse{
+  stroke-dasharray: 10;
+  animation: dash 15s linear infinite;
+  --distance:-1000
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: var(--distance);
+  }
+}

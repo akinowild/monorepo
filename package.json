@@ -6,7 +6,8 @@
   "privateDesc": "// private 标记私有，防止意外发布",
   "main": "index.js",
   "workspaces": [
-    "packages/*","function/*"
+    "packages/*",
+    "function/*"
   ],
   "scripts": {
     "start-demo": "cd packages/demo-admin && pnpm dev",
@@ -21,5 +22,9 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "tdesign-starter-cli": "^0.5.1"
   }
 }
